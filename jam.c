@@ -68,7 +68,7 @@ int jam(char *filename)
             printf("Vous êtes élève à Epitech et vous ne connaissez pas");
             printf(" l'APE ou l'AER nommé : ");
             printf("%s %s", tab[aer_mystere - 1], tab[aer_mystere]);
-            printf("\nVous risquez la TIG\n");
+            printf("\nVous risquez la TIG!!!!!!!!\n");
             return 0;
         }
         if (strcmp(prenom_mystere, tab[aer_mystere]) == 0)
@@ -81,5 +81,6 @@ int jam(char *filename)
 }
 int main(int ac, char **av)
 {
+    if(ac == 2)
     jam(av[1]);
 }
