@@ -81,6 +81,10 @@ int jam(char *filename)
 }
 int main(int ac, char **av)
 {
-    if(ac == 2)
-    jam(av[1]);
+    if (ac == 1)
+    {
+        main_1();
+    }
+    if (ac == 2)
+        jam(av[1]);
 }

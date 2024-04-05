@@ -40,6 +40,9 @@ int display_bad_answer();
 int display_good_answer_window();
 int display_second();
 int display_last();
+int random_num(int max, int min);
+int jam(char *filename);
+int main_1(void);
 
 
 #endif

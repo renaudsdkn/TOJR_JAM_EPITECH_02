@@ -8,6 +8,7 @@
 SRC	=	jam.c	\
 		split.c	\
 		file.c	\
+		mysterious.c
 
 OBJ	=	$(SRC:.c=.o)
 
